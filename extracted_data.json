@@ -1,0 +1,228 @@
+[
+  {
+    "patient_info": {
+      "patient_id": "313993",
+      "admit_date": "2021-09-01",
+      "discharge_date": "2021-09-02",
+      "species": "dog",
+      "age": 5,
+      "sex": "FS",
+      "weight_kg": 54.8
+    },
+    "antimicrobial_usage": [
+      {
+        "antimicrobial_administered": "Enrofloxacin",
+        "calculation": "Injectable enrofloxacin was given at 10mg/kg once daily IV. Based on prescription instructions stating '10mg/kg (23.8mL) IV once daily' and 2 vials of 20mL at 22.7mg/mL concentration ordered on 9/1, this indicates approximately 2 doses were given inpatient (9/1 and 9/2 morning). Calculation: 54.8 kg \u00d7 10 mg/kg \u00d7 2 doses = 1,096 mg. Additionally, oral enrofloxacin 136mg tablets were prescribed at discharge: 4 tablets once daily for 7 days = 544mg/day \u00d7 7 days = 3,808 mg. Total enrofloxacin administered (IV + oral): 1,096 + 3,808 = 4,904 mg.",
+        "total_mg_administered": 4904
+      },
+      {
+        "antimicrobial_administered": "Ampicillin/Sulbactam",
+        "calculation": "Ampicillin/Sulbactam 1.5gm vials were prescribed with instructions to give 30mg/kg IV every 8 hours starting 9/1. Patient was hospitalized from 9/1 to 9/2 (approximately 36 hours). At every 8 hours dosing, this would be approximately 5 doses during hospitalization. Calculation: 54.8 kg \u00d7 30 mg/kg \u00d7 5 doses = 8,220 mg.",
+        "total_mg_administered": 8220
+      },
+      {
+        "antimicrobial_administered": "Amoxicillin/clavulanate",
+        "calculation": "Amoxicillin/clavulanate 375mg tablets were prescribed at discharge with instructions to give 2 tablets by mouth twice daily for 7 days. Calculation: 2 tablets \u00d7 375 mg/tablet \u00d7 2 times daily \u00d7 7 days = 10,500 mg.",
+        "total_mg_administered": 10500
+      }
+    ]
+  },
+  {
+    "patient_info": {
+      "patient_id": "308936",
+      "admit_date": "2021-09-01",
+      "discharge_date": "2021-09-05",
+      "species": "cat",
+      "age": 10,
+      "sex": "MN",
+      "weight_kg": 5.49
+    },
+    "antimicrobial_usage": [
+      {
+        "antimicrobial_administered": "Ampicillin/Sulbactam",
+        "calculation": "The prescription records show Ampicillin/Sulbactam 1.5gm vials were prescribed on 9/1/21 and 9/4/21 with instructions to give 150mg IV every 8 hours (three times daily). Using the patient's weight of 5.49 kg from 9/1/21, the dose is approximately 27 mg/kg. From admission on 9/1 through discharge on 9/5, this represents approximately 4 days of treatment. Total doses = 3 doses/day \u00d7 4 days = 12 doses. Total mg = 150 mg/dose \u00d7 12 doses = 1800 mg.",
+        "total_mg_administered": 1800
+      },
+      {
+        "antimicrobial_administered": "Metronidazole",
+        "calculation": "Metronidazole 5mg/mL in 100mL bags was prescribed on 9/1/21 and 9/4/21 with instructions to give 5mg/kg IV every 12 hours (twice daily) or 10mL every 12 hours. Using the patient's weight of 5.49 kg, the dose is 5 mg/kg \u00d7 5.49 kg = 27.45 mg per dose. From admission on 9/1 through discharge on 9/5 represents approximately 4 days of treatment. Total doses = 2 doses/day \u00d7 4 days = 8 doses. Total mg = 27.45 mg/dose \u00d7 8 doses = 219.6 mg, which rounds to 220 mg.",
+        "total_mg_administered": 220
+      },
+      {
+        "antimicrobial_administered": "Enrofloxacin",
+        "calculation": "Enrofloxacin 22.7mg/mL was prescribed multiple times (9/1, 9/2, 9/4) with instructions to give 5mg/kg IV every 24 hours or 1.1 mL daily. Using the patient's weight of 5.49 kg, the dose is 5 mg/kg \u00d7 5.49 kg = 27.45 mg per dose. From admission on 9/1 through discharge on 9/5 represents approximately 4 days of treatment. Total doses = 1 dose/day \u00d7 4 days = 4 doses. Total mg = 27.45 mg/dose \u00d7 4 doses = 109.8 mg, which rounds to 110 mg.",
+        "total_mg_administered": 110
+      },
+      {
+        "antimicrobial_administered": "Amoxicillin/Clavulanate",
+        "calculation": "Amoxicillin/Clavulanate Drops 62.5mg/mL in a 15mL bottle was prescribed on 9/4/21 for discharge with instructions to give 1.2mL by mouth every 12 hours until gone. The concentration is 62.5 mg/mL, so each dose = 1.2 mL \u00d7 62.5 mg/mL = 75 mg. The bottle contains 15 mL total, which equals 15 mL \u00f7 1.2 mL/dose = 12.5 doses. Total mg = 75 mg/dose \u00d7 12.5 doses = 937.5 mg.",
+        "total_mg_administered": 937.5
+      }
+    ]
+  },
+  {
+    "patient_info": {
+      "patient_id": "298383",
+      "admit_date": "2020-12-28",
+      "discharge_date": "2021-03-11",
+      "species": "dog",
+      "age": 3,
+      "sex": "MN",
+      "weight_kg": 20.6
+    },
+    "antimicrobial_usage": [
+      {
+        "antimicrobial_administered": "Metronidazole",
+        "calculation": "Patient received metronidazole 250mg tablets. Multiple prescriptions show: 28 tablets (250mg each) on 2021-01-20, 14 tablets on 2021-01-14, 28 tablets on 2021-01-02, and 14 tablets on 2021-01-14. Additionally, one 100mL bag of metronidazole 5mg/mL injection (500mg total) was administered on 2021-01-01. Total oral: (28 + 14 + 28 + 14) \u00d7 250mg = 21,000mg. Total injectable: 500mg. Total = 21,500mg.",
+        "total_mg_administered": 21500
+      },
+      {
+        "antimicrobial_administered": "Enrofloxacin",
+        "calculation": "Patient received enrofloxacin 136mg chewable tablets at 1.5 tablets per dose (204mg per dose). Prescriptions show: 21 tablets on 2021-01-20, 11 tablets on 2021-01-14, and 21 tablets on 2021-01-02. Total tablets: 21 + 11 + 21 = 53 tablets. Total = 53 \u00d7 136mg = 7,208mg. Additionally, injectable enrofloxacin 22.7mg/mL at 7.7mL was given on 2021-01-01: 7.7 \u00d7 22.7mg = 174.79mg. Total = 7,208 + 175 = 7,383mg.",
+        "total_mg_administered": 7383
+      },
+      {
+        "antimicrobial_administered": "Amoxicillin/clavulanate",
+        "calculation": "Patient received amoxicillin/clavulanate 250mg tablets. Prescriptions show: 28 tablets on 2021-01-20, 14 tablets on 2021-01-14, 28 tablets on 2021-01-02, and 14 tablets on 2021-01-14. Total tablets: 28 + 14 + 28 + 14 = 84 tablets. Total = 84 \u00d7 250mg = 21,000mg.",
+        "total_mg_administered": 21000
+      }
+    ]
+  },
+  {
+    "patient_info": {
+      "patient_id": "296174",
+      "admit_date": "2021-01-14",
+      "discharge_date": "2021-01-15",
+      "species": "dog",
+      "age": 4,
+      "sex": "FS",
+      "weight_kg": 32.4
+    },
+    "antimicrobial_usage": [
+      {
+        "antimicrobial_administered": "Amoxicillin/Clavulanate (Clavamox)",
+        "calculation": "The discharge statement indicates the patient received 500 mg PO every 12 hours. The patient was hospitalized from 2021-01-14 to 2021-01-15 (approximately 1 day). During hospitalization, the patient would have received approximately 2 doses (one every 12 hours). Total: 500 mg \u00d7 2 doses = 1000 mg.",
+        "total_mg_administered": 1000
+      },
+      {
+        "antimicrobial_administered": "Enrofloxacin",
+        "calculation": "Multiple formulations were used. (1) Oral tablets: 340 mg PO once daily - patient received this during hospitalization for approximately 1 day = 340 mg \u00d7 1 dose = 340 mg. (2) IV injection: 13.2 mL of 22.7 mg/mL solution given IV once every 24 hours. The prescription shows 26.4 mL total quantity, suggesting 2 doses were given. 13.2 mL \u00d7 22.7 mg/mL = 299.64 mg per dose \u00d7 2 doses = 599.28 mg. Total enrofloxacin = 340 mg (oral) + 599.28 mg (IV) = 939.28 mg, rounded to 939 mg.",
+        "total_mg_administered": 939
+      },
+      {
+        "antimicrobial_administered": "Ampicillin/Sulbactam (Unasyn)",
+        "calculation": "The instructions indicate 900 mg IV every 8 hours (30 mg/kg for a 30 kg dog, though actual weight is 32.4 kg). One prescription shows 2.0 vials of 1.5 gm (1500 mg) each were given with instructions for 900 mg every 8 hours. Another prescription shows 1.0 vial. Over approximately 24 hours of hospitalization, the patient would receive 3 doses at 900 mg each. Total: 900 mg \u00d7 3 doses = 2700 mg.",
+        "total_mg_administered": 2700
+      }
+    ]
+  },
+  {
+    "patient_info": {
+      "patient_id": "298400",
+      "admit_date": null,
+      "discharge_date": null,
+      "species": "dog",
+      "age": 13,
+      "sex": "MI",
+      "weight_kg": null
+    },
+    "antimicrobial_usage": [
+      {
+        "antimicrobial_administered": "Tylosin",
+        "calculation": "Weight is not available. Based on prescription records, the patient received 200mg capsules. Total prescriptions: 90 capsules (Dec 13, 2021) + 30 capsules (Dec 4, 2021) = 120 capsules total at 200mg each. Total: 120 \u00d7 200mg = 24000mg.",
+        "total_mg_administered": 24000
+      },
+      {
+        "antimicrobial_administered": "Metronidazole",
+        "calculation": "Weight is not available. One 100mL bag at 5mg/mL concentration was prescribed on Dec 1, 2021 with instructions '10mg/kg IV every 12 hours'. Without weight or number of doses specified, calculating based on bag volume: 100mL \u00d7 5mg/mL = 500mg total available in bag.",
+        "total_mg_administered": 500
+      },
+      {
+        "antimicrobial_administered": "Enrofloxacin (Injectable)",
+        "calculation": "Weight is not available but dosing information provided. Nov 21, 2021: 4.5mL at 22.7mg/mL = 102.15mg. Sep 3, 2021: 5.5mL at 22.7mg/mL = 124.85mg. Sep 1, 2021: 10mL at 22.7mg/mL = 227mg. Aug 31, 2021: 5mL at 22.7mg/mL = 113.5mg. Total: 102.15 + 124.85 + 227 + 113.5 = 567.5mg.",
+        "total_mg_administered": 567.5
+      },
+      {
+        "antimicrobial_administered": "Enrofloxacin (Oral)",
+        "calculation": "Weight is not available. Sep 5, 2021: 10 tablets of 136mg = 1360mg (After Hours discharge). Sep 4, 2021: 6 tablets of 136mg = 816mg. Total: 1360 + 816 = 2176mg.",
+        "total_mg_administered": 2176
+      },
+      {
+        "antimicrobial_administered": "Amoxicillin/clavulanate",
+        "calculation": "Weight is not available. Sep 5, 2021: 14 tablets of 125mg = 1750mg (After Hours discharge). Sep 4, 2021: 18 tablets of 125mg = 2250mg. Total: 1750 + 2250 = 4000mg.",
+        "total_mg_administered": 4000
+      },
+      {
+        "antimicrobial_administered": "Ampicillin/Sulbactam",
+        "calculation": "Weight is not available. Sep 3, 2021: 1 vial of 1.5gm = 1500mg. Sep 1, 2021: 2 vials of 1.5gm = 3000mg. Aug 31, 2021: 2 vials of 1.5gm = 3000mg. Total: 1500 + 3000 + 3000 = 7500mg.",
+        "total_mg_administered": 7500
+      }
+    ]
+  },
+  {
+    "patient_info": {
+      "patient_id": "310600",
+      "admit_date": "2021-07-12",
+      "discharge_date": "2021-12-06",
+      "species": "dog",
+      "age": 1,
+      "sex": "FS",
+      "weight_kg": 12
+    },
+    "antimicrobial_usage": [
+      {
+        "antimicrobial_administered": "Amoxicillin/clavulanate",
+        "calculation": "Multiple prescriptions with different strengths (62.5mg, 125mg, 250mg, 375mg). Calculating total: (28 tablets \u00d7 62.5mg) + (28 tablets \u00d7 125mg) from consult 889684 = 1750mg + 3500mg = 5250mg. From consult 887480: 42 tablets \u00d7 250mg = 10500mg. From consult 886109: 10 tablets \u00d7 250mg = 2500mg. From consult 873507: 10 tablets \u00d7 250mg = 2500mg. From consult 874024: 14 tablets \u00d7 187.5mg (half of 375mg tablet) = 2625mg. From consult 876530: (28 tablets \u00d7 62.5mg) + (28 tablets \u00d7 125mg) = 1750mg + 3500mg = 5250mg. From another consult (null): (28 tablets \u00d7 62.5mg) + (28 tablets \u00d7 125mg) = 1750mg + 3500mg = 5250mg. Total: 5250 + 10500 + 2500 + 2500 + 2625 + 5250 + 5250 = 33875mg.",
+        "total_mg_administered": 33875
+      },
+      {
+        "antimicrobial_administered": "Cefazolin",
+        "calculation": "Multiple 1 gram vials prescribed. From consult 878618: 1 vial = 1000mg. From consult 871890: 2 vials = 2000mg. From another entry in 871890: 1 vial = 1000mg. Total: 1000 + 2000 + 1000 = 4000mg.",
+        "total_mg_administered": 4000
+      },
+      {
+        "antimicrobial_administered": "Cefpodoxime",
+        "calculation": "Multiple prescriptions of 100mg tablets. From consult 878618: 5 tablets \u00d7 100mg = 500mg. From consult 878617: 12 tablets \u00d7 100mg = 1200mg. From consult 878472: 14 tablets \u00d7 100mg = 1400mg. Total: 500 + 1200 + 1400 = 3100mg.",
+        "total_mg_administered": 3100
+      },
+      {
+        "antimicrobial_administered": "Doxycycline",
+        "calculation": "From consult 886109: 15 tablets \u00d7 100mg = 1500mg. Instructions indicate giving 1.5 tablets (150mg) every 12 hours, so 15 tablets = 10 doses over 5 days. Total: 1500mg.",
+        "total_mg_administered": 1500
+      },
+      {
+        "antimicrobial_administered": "Ampicillin/Sulbactam",
+        "calculation": "From consult 873507: 1 vial of 1.5 gram = 1500mg. Instructions indicate 22mg/kg IV every 8 hours. Weight is 12kg, so dose = 12 \u00d7 22 = 264mg per dose. However, only 1 vial (1500mg) was dispensed. Total: 1500mg.",
+        "total_mg_administered": 1500
+      }
+    ]
+  },
+  {
+    "patient_info": {
+      "patient_id": "313680",
+      "admit_date": "2021-08-26",
+      "discharge_date": "2021-09-03",
+      "species": "dog",
+      "age": 8,
+      "sex": "FS",
+      "weight_kg": 25
+    },
+    "antimicrobial_usage": [
+      {
+        "antimicrobial_administered": "Amoxicillin/clavulanate",
+        "calculation": "Amoxicillin/clavulanate 375mg tablets were prescribed. First prescription on 2021-08-30: 6 tablets at 1 tablet every 12 hours = 6 doses. Second prescription on 2021-09-01: 14 tablets at 1 tablet every 12 hours = 14 doses. Total doses = 20. Total mg administered = 20 doses \u00d7 375 mg = 7500 mg.",
+        "total_mg_administered": 7500
+      },
+      {
+        "antimicrobial_administered": "Enrofloxacin",
+        "calculation": "Multiple enrofloxacin prescriptions were given. Injectable form (22.7mg/mL): doses of 11 mL, 10.9 mL, 7 mL, 11.4 mL, 22 mL, and 10 mL totaling 72.3 mL at 22.7 mg/mL = 1641.21 mg. Oral tablets (136mg): 4 tablets (2021-08-31) + 14 tablets (2021-09-01) = 18 tablets. Each dose is 2 tablets (272 mg), so 9 doses \u00d7 272 mg = 2448 mg. Total = 1641.21 + 2448 = 4089.21 mg.",
+        "total_mg_administered": 4089.21
+      },
+      {
+        "antimicrobial_administered": "Ampicillin/Sulbactam",
+        "calculation": "Ampicillin/Sulbactam 1.5gm vials were prescribed at 30 mg/kg every 8 hours. Weight = 25 kg, so dose = 25 \u00d7 30 = 750 mg per dose. Vials prescribed: 4 vials (2021-08-28 for multiple doses), then individual vials on 2021-08-27 (3 times) and 2021-08-26 (1 time) = 8 vials total. Each vial = 1500 mg. Total = 8 \u00d7 1500 = 12000 mg.",
+        "total_mg_administered": 12000
+      }
+    ]
+  }
+]

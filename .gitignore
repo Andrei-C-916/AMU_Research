@@ -2,3 +2,6 @@ __pycache__/
 data/
 .env
 out.json
+298400_cutoff.json
+310600_cutoff.json
+313680_cutoff.json

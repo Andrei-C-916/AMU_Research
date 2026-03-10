@@ -8,7 +8,7 @@ API_URL = "https://ai-dashboard.vet.cornell.edu/api/chat/completions"
 API_KEY = os.getenv("API_KEY")
 
 
-def call_model(prompt):
+def call_model(prompt, temperature=0.5):
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json"
@@ -21,7 +21,8 @@ def call_model(prompt):
                 "role": "user",
                 "content": prompt
             }
-        ]
+        ],
+        "temperature": temperature
     }
 
     response = requests.post(API_URL, headers=headers, json=payload, timeout=200)
